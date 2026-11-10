@@ -1,0 +1,201 @@
+run_id,file,platform,unit,suite,bios,kernel,result,failure_id,category
+RUN-0001,RUN-0001_PLAT-B1-02_pcie_link_training.log,PLAT-B1,PLAT-B1-02,pcie_link_training,B1.0.41,6.8.12,PASS,,
+RUN-0002,RUN-0002_PLAT-B1-03_usb_enumeration.log,PLAT-B1,PLAT-B1-03,usb_enumeration,B1.0.41,6.8.12,PASS,,
+RUN-0003,RUN-0003_PLAT-A0-04_memory_stress.log,PLAT-A0,PLAT-A0-04,memory_stress,A0.1.18,6.8.12,PASS,,
+RUN-0004,RUN-0004_PLAT-A0-03_usb_enumeration.log,PLAT-A0,PLAT-A0-03,usb_enumeration,A0.1.17,6.8.12,FAIL,HARNESS_SSH_LOST,Test Infrastructure
+RUN-0005,RUN-0005_PLAT-B1-01_usb_enumeration.log,PLAT-B1,PLAT-B1-01,usb_enumeration,B1.0.42,6.8.12,PASS,,
+RUN-0006,RUN-0006_PLAT-A0-02_s4_hibernate_cycle.log,PLAT-A0,PLAT-A0-02,s4_hibernate_cycle,A0.1.18,6.9.3,PASS,,
+RUN-0007,RUN-0007_PLAT-B1-03_memory_stress.log,PLAT-B1,PLAT-B1-03,memory_stress,B1.0.42,6.8.12,PASS,,
+RUN-0008,RUN-0008_PLAT-B1-03_s4_hibernate_cycle.log,PLAT-B1,PLAT-B1-03,s4_hibernate_cycle,B1.0.42,6.9.3,PASS,,
+RUN-0009,RUN-0009_PLAT-B1-03_thermal_soak.log,PLAT-B1,PLAT-B1-03,thermal_soak,B1.0.41,6.9.3,FAIL,THERMAL_THROTTLE,Thermal
+RUN-0010,RUN-0010_PLAT-B1-06_s4_hibernate_cycle.log,PLAT-B1,PLAT-B1-06,s4_hibernate_cycle,B1.0.42,6.8.12,PASS,,
+RUN-0011,RUN-0011_PLAT-B1-02_thermal_soak.log,PLAT-B1,PLAT-B1-02,thermal_soak,B1.0.41,6.9.3,PASS,,
+RUN-0012,RUN-0012_PLAT-A0-05_thermal_soak.log,PLAT-A0,PLAT-A0-05,thermal_soak,A0.1.17,6.9.3,FAIL,MEM_ECC_CE,Memory
+RUN-0013,RUN-0013_PLAT-B1-06_s3_resume_cycle.log,PLAT-B1,PLAT-B1-06,s3_resume_cycle,B1.0.42,6.9.3,PASS,,
+RUN-0014,RUN-0014_PLAT-B1-03_pcie_link_training.log,PLAT-B1,PLAT-B1-03,pcie_link_training,B1.0.41,6.9.3,PASS,,
+RUN-0015,RUN-0015_PLAT-B1-01_pcie_link_training.log,PLAT-B1,PLAT-B1-01,pcie_link_training,B1.0.42,6.8.12,PASS,,
+RUN-0016,RUN-0016_PLAT-A0-03_boot_stress.log,PLAT-A0,PLAT-A0-03,boot_stress,A0.1.18,6.9.3,FAIL,MEM_TRAINING_FAIL,Memory
+RUN-0017,RUN-0017_PLAT-B1-01_memory_stress.log,PLAT-B1,PLAT-B1-01,memory_stress,B1.0.42,6.8.12,PASS,,
+RUN-0018,RUN-0018_PLAT-A0-05_s4_hibernate_cycle.log,PLAT-A0,PLAT-A0-05,s4_hibernate_cycle,A0.1.17,6.9.3,PASS,,
+RUN-0019,RUN-0019_PLAT-A0-05_thermal_soak.log,PLAT-A0,PLAT-A0-05,thermal_soak,A0.1.18,6.8.12,FAIL,MEM_ECC_CE,Memory
+RUN-0020,RUN-0020_PLAT-B1-04_s3_resume_cycle.log,PLAT-B1,PLAT-B1-04,s3_resume_cycle,B1.0.41,6.8.12,PASS,,
+RUN-0021,RUN-0021_PLAT-A0-05_boot_stress.log,PLAT-A0,PLAT-A0-05,boot_stress,A0.1.18,6.9.3,FAIL,EC_FW_ASSERT,Firmware
+RUN-0022,RUN-0022_PLAT-A0-02_memory_stress.log,PLAT-A0,PLAT-A0-02,memory_stress,A0.1.18,6.8.12,FAIL,MEM_TRAINING_FAIL,Memory
+RUN-0023,RUN-0023_PLAT-A0-04_boot_stress.log,PLAT-A0,PLAT-A0-04,boot_stress,A0.1.18,6.9.3,PASS,,
+RUN-0024,RUN-0024_PLAT-B1-03_thermal_soak.log,PLAT-B1,PLAT-B1-03,thermal_soak,B1.0.42,6.8.12,FAIL,HARNESS_SSH_LOST,Test Infrastructure
+RUN-0025,RUN-0025_PLAT-A0-03_memory_stress.log,PLAT-A0,PLAT-A0-03,memory_stress,A0.1.17,6.8.12,PASS,,
+RUN-0026,RUN-0026_PLAT-B1-04_s4_hibernate_cycle.log,PLAT-B1,PLAT-B1-04,s4_hibernate_cycle,B1.0.41,6.9.3,FAIL,HARNESS_SSH_LOST,Test Infrastructure
+RUN-0027,RUN-0027_PLAT-B1-01_memory_stress.log,PLAT-B1,PLAT-B1-01,memory_stress,B1.0.41,6.8.12,PASS,,
+RUN-0028,RUN-0028_PLAT-A0-06_boot_stress.log,PLAT-A0,PLAT-A0-06,boot_stress,A0.1.18,6.9.3,FAIL,KERNEL_SOFT_LOCKUP,Kernel/OS
+RUN-0029,RUN-0029_PLAT-A0-03_usb_enumeration.log,PLAT-A0,PLAT-A0-03,usb_enumeration,A0.1.17,6.8.12,PASS,,
+RUN-0030,RUN-0030_PLAT-B1-03_pcie_link_training.log,PLAT-B1,PLAT-B1-03,pcie_link_training,B1.0.41,6.9.3,PASS,,
+RUN-0031,RUN-0031_PLAT-B1-04_memory_stress.log,PLAT-B1,PLAT-B1-04,memory_stress,B1.0.42,6.8.12,PASS,,
+RUN-0032,RUN-0032_PLAT-B1-03_pcie_link_training.log,PLAT-B1,PLAT-B1-03,pcie_link_training,B1.0.41,6.8.12,PASS,,
+RUN-0033,RUN-0033_PLAT-B1-05_pcie_link_training.log,PLAT-B1,PLAT-B1-05,pcie_link_training,B1.0.42,6.8.12,FAIL,PCIE_LINK_DOWNTRAIN,PCIe
+RUN-0034,RUN-0034_PLAT-A0-05_boot_stress.log,PLAT-A0,PLAT-A0-05,boot_stress,A0.1.17,6.9.3,PASS,,
+RUN-0035,RUN-0035_PLAT-A0-01_memory_stress.log,PLAT-A0,PLAT-A0-01,memory_stress,A0.1.17,6.9.3,PASS,,
+RUN-0036,RUN-0036_PLAT-A0-04_usb_enumeration.log,PLAT-A0,PLAT-A0-04,usb_enumeration,A0.1.17,6.8.12,PASS,,
+RUN-0037,RUN-0037_PLAT-B1-01_pcie_link_training.log,PLAT-B1,PLAT-B1-01,pcie_link_training,B1.0.42,6.9.3,FAIL,PCIE_LINK_DOWNTRAIN,PCIe
+RUN-0038,RUN-0038_PLAT-A0-05_boot_stress.log,PLAT-A0,PLAT-A0-05,boot_stress,A0.1.18,6.8.12,PASS,,
+RUN-0039,RUN-0039_PLAT-A0-01_s3_resume_cycle.log,PLAT-A0,PLAT-A0-01,s3_resume_cycle,A0.1.17,6.9.3,PASS,,
+RUN-0040,RUN-0040_PLAT-A0-06_s3_resume_cycle.log,PLAT-A0,PLAT-A0-06,s3_resume_cycle,A0.1.17,6.8.12,PASS,,
+RUN-0041,RUN-0041_PLAT-B1-03_usb_enumeration.log,PLAT-B1,PLAT-B1-03,usb_enumeration,B1.0.41,6.8.12,PASS,,
+RUN-0042,RUN-0042_PLAT-A0-06_pcie_link_training.log,PLAT-A0,PLAT-A0-06,pcie_link_training,A0.1.18,6.8.12,PASS,,
+RUN-0043,RUN-0043_PLAT-A0-04_s3_resume_cycle.log,PLAT-A0,PLAT-A0-04,s3_resume_cycle,A0.1.18,6.9.3,FAIL,HARNESS_SSH_LOST,Test Infrastructure
+RUN-0044,RUN-0044_PLAT-B1-06_usb_enumeration.log,PLAT-B1,PLAT-B1-06,usb_enumeration,B1.0.42,6.9.3,FAIL,USB_ENUM_FAIL,USB
+RUN-0045,RUN-0045_PLAT-A0-01_memory_stress.log,PLAT-A0,PLAT-A0-01,memory_stress,A0.1.17,6.9.3,PASS,,
+RUN-0046,RUN-0046_PLAT-A0-01_thermal_soak.log,PLAT-A0,PLAT-A0-01,thermal_soak,A0.1.18,6.9.3,PASS,,
+RUN-0047,RUN-0047_PLAT-A0-05_boot_stress.log,PLAT-A0,PLAT-A0-05,boot_stress,A0.1.18,6.9.3,FAIL,HARNESS_SSH_LOST,Test Infrastructure
+RUN-0048,RUN-0048_PLAT-A0-06_s4_hibernate_cycle.log,PLAT-A0,PLAT-A0-06,s4_hibernate_cycle,A0.1.18,6.9.3,PASS,,
+RUN-0049,RUN-0049_PLAT-B1-06_boot_stress.log,PLAT-B1,PLAT-B1-06,boot_stress,B1.0.41,6.8.12,PASS,,
+RUN-0050,RUN-0050_PLAT-A0-05_thermal_soak.log,PLAT-A0,PLAT-A0-05,thermal_soak,A0.1.18,6.9.3,FAIL,MEM_ECC_CE,Memory
+RUN-0051,RUN-0051_PLAT-A0-03_thermal_soak.log,PLAT-A0,PLAT-A0-03,thermal_soak,A0.1.17,6.8.12,PASS,,
+RUN-0052,RUN-0052_PLAT-A0-01_thermal_soak.log,PLAT-A0,PLAT-A0-01,thermal_soak,A0.1.18,6.8.12,FAIL,HARNESS_SSH_LOST,Test Infrastructure
+RUN-0053,RUN-0053_PLAT-A0-05_memory_stress.log,PLAT-A0,PLAT-A0-05,memory_stress,A0.1.17,6.9.3,FAIL,MEM_ECC_CE,Memory
+RUN-0054,RUN-0054_PLAT-A0-04_memory_stress.log,PLAT-A0,PLAT-A0-04,memory_stress,A0.1.18,6.8.12,PASS,,
+RUN-0055,RUN-0055_PLAT-A0-01_memory_stress.log,PLAT-A0,PLAT-A0-01,memory_stress,A0.1.17,6.8.12,PASS,,
+RUN-0056,RUN-0056_PLAT-A0-05_s4_hibernate_cycle.log,PLAT-A0,PLAT-A0-05,s4_hibernate_cycle,A0.1.17,6.8.12,PASS,,
+RUN-0057,RUN-0057_PLAT-B1-04_thermal_soak.log,PLAT-B1,PLAT-B1-04,thermal_soak,B1.0.41,6.9.3,PASS,,
+RUN-0058,RUN-0058_PLAT-B1-03_s3_resume_cycle.log,PLAT-B1,PLAT-B1-03,s3_resume_cycle,B1.0.41,6.8.12,PASS,,
+RUN-0059,RUN-0059_PLAT-A0-02_s3_resume_cycle.log,PLAT-A0,PLAT-A0-02,s3_resume_cycle,A0.1.18,6.9.3,PASS,,
+RUN-0060,RUN-0060_PLAT-A0-04_memory_stress.log,PLAT-A0,PLAT-A0-04,memory_stress,A0.1.17,6.8.12,PASS,,
+RUN-0061,RUN-0061_PLAT-B1-02_s3_resume_cycle.log,PLAT-B1,PLAT-B1-02,s3_resume_cycle,B1.0.41,6.8.12,FAIL,KERNEL_SOFT_LOCKUP,Kernel/OS
+RUN-0062,RUN-0062_PLAT-B1-04_usb_enumeration.log,PLAT-B1,PLAT-B1-04,usb_enumeration,B1.0.41,6.9.3,FAIL,USB_ENUM_FAIL,USB
+RUN-0063,RUN-0063_PLAT-A0-04_memory_stress.log,PLAT-A0,PLAT-A0-04,memory_stress,A0.1.18,6.9.3,FAIL,MEM_TRAINING_FAIL,Memory
+RUN-0064,RUN-0064_PLAT-B1-05_thermal_soak.log,PLAT-B1,PLAT-B1-05,thermal_soak,B1.0.41,6.9.3,PASS,,
+RUN-0065,RUN-0065_PLAT-A0-05_thermal_soak.log,PLAT-A0,PLAT-A0-05,thermal_soak,A0.1.18,6.9.3,FAIL,MEM_ECC_CE,Memory
+RUN-0066,RUN-0066_PLAT-A0-03_boot_stress.log,PLAT-A0,PLAT-A0-03,boot_stress,A0.1.18,6.9.3,PASS,,
+RUN-0067,RUN-0067_PLAT-A0-06_memory_stress.log,PLAT-A0,PLAT-A0-06,memory_stress,A0.1.17,6.8.12,PASS,,
+RUN-0068,RUN-0068_PLAT-A0-03_s4_hibernate_cycle.log,PLAT-A0,PLAT-A0-03,s4_hibernate_cycle,A0.1.18,6.9.3,PASS,,
+RUN-0069,RUN-0069_PLAT-A0-04_s4_hibernate_cycle.log,PLAT-A0,PLAT-A0-04,s4_hibernate_cycle,A0.1.18,6.9.3,PASS,,
+RUN-0070,RUN-0070_PLAT-A0-05_s3_resume_cycle.log,PLAT-A0,PLAT-A0-05,s3_resume_cycle,A0.1.18,6.8.12,FAIL,S3_RESUME_TIMEOUT,Power Management
+RUN-0071,RUN-0071_PLAT-A0-04_usb_enumeration.log,PLAT-A0,PLAT-A0-04,usb_enumeration,A0.1.18,6.8.12,PASS,,
+RUN-0072,RUN-0072_PLAT-B1-02_thermal_soak.log,PLAT-B1,PLAT-B1-02,thermal_soak,B1.0.42,6.8.12,PASS,,
+RUN-0073,RUN-0073_PLAT-B1-04_s4_hibernate_cycle.log,PLAT-B1,PLAT-B1-04,s4_hibernate_cycle,B1.0.41,6.9.3,PASS,,
+RUN-0074,RUN-0074_PLAT-A0-03_memory_stress.log,PLAT-A0,PLAT-A0-03,memory_stress,A0.1.17,6.8.12,PASS,,
+RUN-0075,RUN-0075_PLAT-B1-02_thermal_soak.log,PLAT-B1,PLAT-B1-02,thermal_soak,B1.0.42,6.8.12,PASS,,
+RUN-0076,RUN-0076_PLAT-B1-02_s4_hibernate_cycle.log,PLAT-B1,PLAT-B1-02,s4_hibernate_cycle,B1.0.41,6.9.3,PASS,,
+RUN-0077,RUN-0077_PLAT-B1-06_s3_resume_cycle.log,PLAT-B1,PLAT-B1-06,s3_resume_cycle,B1.0.42,6.9.3,FAIL,HARNESS_SSH_LOST,Test Infrastructure
+RUN-0078,RUN-0078_PLAT-A0-03_boot_stress.log,PLAT-A0,PLAT-A0-03,boot_stress,A0.1.18,6.9.3,PASS,,
+RUN-0079,RUN-0079_PLAT-A0-05_memory_stress.log,PLAT-A0,PLAT-A0-05,memory_stress,A0.1.18,6.8.12,FAIL,MEM_ECC_CE,Memory
+RUN-0080,RUN-0080_PLAT-B1-02_thermal_soak.log,PLAT-B1,PLAT-B1-02,thermal_soak,B1.0.41,6.9.3,FAIL,THERMAL_THROTTLE,Thermal
+RUN-0081,RUN-0081_PLAT-B1-05_s3_resume_cycle.log,PLAT-B1,PLAT-B1-05,s3_resume_cycle,B1.0.42,6.9.3,PASS,,
+RUN-0082,RUN-0082_PLAT-B1-01_memory_stress.log,PLAT-B1,PLAT-B1-01,memory_stress,B1.0.41,6.8.12,PASS,,
+RUN-0083,RUN-0083_PLAT-B1-06_memory_stress.log,PLAT-B1,PLAT-B1-06,memory_stress,B1.0.41,6.8.12,FAIL,PCIE_AER_FLOOD,PCIe
+RUN-0084,RUN-0084_PLAT-B1-05_thermal_soak.log,PLAT-B1,PLAT-B1-05,thermal_soak,B1.0.42,6.8.12,FAIL,THERMAL_THROTTLE,Thermal
+RUN-0085,RUN-0085_PLAT-B1-03_boot_stress.log,PLAT-B1,PLAT-B1-03,boot_stress,B1.0.42,6.9.3,FAIL,EC_FW_ASSERT,Firmware
+RUN-0086,RUN-0086_PLAT-B1-03_s3_resume_cycle.log,PLAT-B1,PLAT-B1-03,s3_resume_cycle,B1.0.41,6.9.3,PASS,,
+RUN-0087,RUN-0087_PLAT-A0-03_s4_hibernate_cycle.log,PLAT-A0,PLAT-A0-03,s4_hibernate_cycle,A0.1.18,6.9.3,PASS,,
+RUN-0088,RUN-0088_PLAT-B1-03_pcie_link_training.log,PLAT-B1,PLAT-B1-03,pcie_link_training,B1.0.42,6.8.12,PASS,,
+RUN-0089,RUN-0089_PLAT-B1-03_thermal_soak.log,PLAT-B1,PLAT-B1-03,thermal_soak,B1.0.41,6.9.3,PASS,,
+RUN-0090,RUN-0090_PLAT-A0-05_boot_stress.log,PLAT-A0,PLAT-A0-05,boot_stress,A0.1.17,6.8.12,PASS,,
+RUN-0091,RUN-0091_PLAT-B1-04_memory_stress.log,PLAT-B1,PLAT-B1-04,memory_stress,B1.0.42,6.8.12,FAIL,HARNESS_SSH_LOST,Test Infrastructure
+RUN-0092,RUN-0092_PLAT-B1-01_s3_resume_cycle.log,PLAT-B1,PLAT-B1-01,s3_resume_cycle,B1.0.42,6.9.3,PASS,,
+RUN-0093,RUN-0093_PLAT-A0-04_boot_stress.log,PLAT-A0,PLAT-A0-04,boot_stress,A0.1.17,6.8.12,FAIL,MCE_UNCORRECTED,Machine Check
+RUN-0094,RUN-0094_PLAT-A0-02_s4_hibernate_cycle.log,PLAT-A0,PLAT-A0-02,s4_hibernate_cycle,A0.1.17,6.9.3,PASS,,
+RUN-0095,RUN-0095_PLAT-B1-02_thermal_soak.log,PLAT-B1,PLAT-B1-02,thermal_soak,B1.0.42,6.9.3,PASS,,
+RUN-0096,RUN-0096_PLAT-B1-02_s4_hibernate_cycle.log,PLAT-B1,PLAT-B1-02,s4_hibernate_cycle,B1.0.41,6.8.12,PASS,,
+RUN-0097,RUN-0097_PLAT-A0-05_pcie_link_training.log,PLAT-A0,PLAT-A0-05,pcie_link_training,A0.1.17,6.9.3,PASS,,
+RUN-0098,RUN-0098_PLAT-A0-01_memory_stress.log,PLAT-A0,PLAT-A0-01,memory_stress,A0.1.17,6.9.3,FAIL,THERMAL_THROTTLE,Thermal
+RUN-0099,RUN-0099_PLAT-B1-01_memory_stress.log,PLAT-B1,PLAT-B1-01,memory_stress,B1.0.41,6.9.3,PASS,,
+RUN-0100,RUN-0100_PLAT-B1-02_s4_hibernate_cycle.log,PLAT-B1,PLAT-B1-02,s4_hibernate_cycle,B1.0.42,6.8.12,PASS,,
+RUN-0101,RUN-0101_PLAT-A0-01_s3_resume_cycle.log,PLAT-A0,PLAT-A0-01,s3_resume_cycle,A0.1.18,6.8.12,PASS,,
+RUN-0102,RUN-0102_PLAT-A0-06_pcie_link_training.log,PLAT-A0,PLAT-A0-06,pcie_link_training,A0.1.18,6.8.12,PASS,,
+RUN-0103,RUN-0103_PLAT-B1-06_usb_enumeration.log,PLAT-B1,PLAT-B1-06,usb_enumeration,B1.0.42,6.9.3,FAIL,USB_ENUM_FAIL,USB
+RUN-0104,RUN-0104_PLAT-A0-06_boot_stress.log,PLAT-A0,PLAT-A0-06,boot_stress,A0.1.17,6.9.3,PASS,,
+RUN-0105,RUN-0105_PLAT-B1-03_boot_stress.log,PLAT-B1,PLAT-B1-03,boot_stress,B1.0.42,6.9.3,FAIL,PCIE_LINK_DOWNTRAIN,PCIe
+RUN-0106,RUN-0106_PLAT-A0-06_s4_hibernate_cycle.log,PLAT-A0,PLAT-A0-06,s4_hibernate_cycle,A0.1.18,6.9.3,PASS,,
+RUN-0107,RUN-0107_PLAT-B1-01_thermal_soak.log,PLAT-B1,PLAT-B1-01,thermal_soak,B1.0.41,6.9.3,PASS,,
+RUN-0108,RUN-0108_PLAT-B1-05_usb_enumeration.log,PLAT-B1,PLAT-B1-05,usb_enumeration,B1.0.41,6.8.12,PASS,,
+RUN-0109,RUN-0109_PLAT-A0-02_s3_resume_cycle.log,PLAT-A0,PLAT-A0-02,s3_resume_cycle,A0.1.17,6.9.3,PASS,,
+RUN-0110,RUN-0110_PLAT-B1-02_s3_resume_cycle.log,PLAT-B1,PLAT-B1-02,s3_resume_cycle,B1.0.42,6.8.12,FAIL,S3_RESUME_TIMEOUT,Power Management
+RUN-0111,RUN-0111_PLAT-B1-04_usb_enumeration.log,PLAT-B1,PLAT-B1-04,usb_enumeration,B1.0.42,6.9.3,PASS,,
+RUN-0112,RUN-0112_PLAT-B1-06_usb_enumeration.log,PLAT-B1,PLAT-B1-06,usb_enumeration,B1.0.42,6.9.3,FAIL,HARNESS_SSH_LOST,Test Infrastructure
+RUN-0113,RUN-0113_PLAT-A0-05_thermal_soak.log,PLAT-A0,PLAT-A0-05,thermal_soak,A0.1.17,6.8.12,FAIL,MEM_ECC_CE,Memory
+RUN-0114,RUN-0114_PLAT-A0-01_usb_enumeration.log,PLAT-A0,PLAT-A0-01,usb_enumeration,A0.1.17,6.8.12,PASS,,
+RUN-0115,RUN-0115_PLAT-B1-05_s4_hibernate_cycle.log,PLAT-B1,PLAT-B1-05,s4_hibernate_cycle,B1.0.42,6.9.3,FAIL,S4_IMAGE_RESTORE,Power Management
+RUN-0116,RUN-0116_PLAT-B1-02_memory_stress.log,PLAT-B1,PLAT-B1-02,memory_stress,B1.0.41,6.9.3,PASS,,
+RUN-0117,RUN-0117_PLAT-A0-06_thermal_soak.log,PLAT-A0,PLAT-A0-06,thermal_soak,A0.1.18,6.8.12,PASS,,
+RUN-0118,RUN-0118_PLAT-A0-02_usb_enumeration.log,PLAT-A0,PLAT-A0-02,usb_enumeration,A0.1.17,6.9.3,PASS,,
+RUN-0119,RUN-0119_PLAT-A0-04_pcie_link_training.log,PLAT-A0,PLAT-A0-04,pcie_link_training,A0.1.18,6.9.3,PASS,,
+RUN-0120,RUN-0120_PLAT-A0-04_s3_resume_cycle.log,PLAT-A0,PLAT-A0-04,s3_resume_cycle,A0.1.18,6.8.12,FAIL,S3_RESUME_TIMEOUT,Power Management
+RUN-0121,RUN-0121_PLAT-A0-01_boot_stress.log,PLAT-A0,PLAT-A0-01,boot_stress,A0.1.18,6.8.12,FAIL,MEM_TRAINING_FAIL,Memory
+RUN-0122,RUN-0122_PLAT-A0-05_pcie_link_training.log,PLAT-A0,PLAT-A0-05,pcie_link_training,A0.1.17,6.8.12,PASS,,
+RUN-0123,RUN-0123_PLAT-B1-02_pcie_link_training.log,PLAT-B1,PLAT-B1-02,pcie_link_training,B1.0.41,6.8.12,PASS,,
+RUN-0124,RUN-0124_PLAT-B1-06_pcie_link_training.log,PLAT-B1,PLAT-B1-06,pcie_link_training,B1.0.42,6.9.3,FAIL,PCIE_LINK_DOWNTRAIN,PCIe
+RUN-0125,RUN-0125_PLAT-A0-03_pcie_link_training.log,PLAT-A0,PLAT-A0-03,pcie_link_training,A0.1.17,6.8.12,PASS,,
+RUN-0126,RUN-0126_PLAT-B1-06_usb_enumeration.log,PLAT-B1,PLAT-B1-06,usb_enumeration,B1.0.42,6.9.3,FAIL,USB_ENUM_FAIL,USB
+RUN-0127,RUN-0127_PLAT-A0-01_thermal_soak.log,PLAT-A0,PLAT-A0-01,thermal_soak,A0.1.17,6.9.3,PASS,,
+RUN-0128,RUN-0128_PLAT-A0-01_boot_stress.log,PLAT-A0,PLAT-A0-01,boot_stress,A0.1.18,6.9.3,FAIL,MEM_TRAINING_FAIL,Memory
+RUN-0129,RUN-0129_PLAT-B1-04_s3_resume_cycle.log,PLAT-B1,PLAT-B1-04,s3_resume_cycle,B1.0.42,6.9.3,FAIL,HARNESS_SSH_LOST,Test Infrastructure
+RUN-0130,RUN-0130_PLAT-B1-01_thermal_soak.log,PLAT-B1,PLAT-B1-01,thermal_soak,B1.0.41,6.9.3,PASS,,
+RUN-0131,RUN-0131_PLAT-A0-03_thermal_soak.log,PLAT-A0,PLAT-A0-03,thermal_soak,A0.1.18,6.8.12,PASS,,
+RUN-0132,RUN-0132_PLAT-B1-04_s3_resume_cycle.log,PLAT-B1,PLAT-B1-04,s3_resume_cycle,B1.0.42,6.8.12,PASS,,
+RUN-0133,RUN-0133_PLAT-A0-01_pcie_link_training.log,PLAT-A0,PLAT-A0-01,pcie_link_training,A0.1.17,6.8.12,PASS,,
+RUN-0134,RUN-0134_PLAT-B1-05_memory_stress.log,PLAT-B1,PLAT-B1-05,memory_stress,B1.0.41,6.8.12,PASS,,
+RUN-0135,RUN-0135_PLAT-B1-06_s3_resume_cycle.log,PLAT-B1,PLAT-B1-06,s3_resume_cycle,B1.0.41,6.9.3,FAIL,USB_ENUM_FAIL,USB
+RUN-0136,RUN-0136_PLAT-B1-05_memory_stress.log,PLAT-B1,PLAT-B1-05,memory_stress,B1.0.41,6.9.3,PASS,,
+RUN-0137,RUN-0137_PLAT-A0-04_boot_stress.log,PLAT-A0,PLAT-A0-04,boot_stress,A0.1.18,6.8.12,PASS,,
+RUN-0138,RUN-0138_PLAT-A0-01_pcie_link_training.log,PLAT-A0,PLAT-A0-01,pcie_link_training,A0.1.17,6.8.12,PASS,,
+RUN-0139,RUN-0139_PLAT-A0-05_boot_stress.log,PLAT-A0,PLAT-A0-05,boot_stress,A0.1.17,6.9.3,PASS,,
+RUN-0140,RUN-0140_PLAT-A0-04_thermal_soak.log,PLAT-A0,PLAT-A0-04,thermal_soak,A0.1.18,6.9.3,PASS,,
+RUN-0141,RUN-0141_PLAT-A0-05_thermal_soak.log,PLAT-A0,PLAT-A0-05,thermal_soak,A0.1.17,6.8.12,FAIL,THERMAL_THROTTLE,Thermal
+RUN-0142,RUN-0142_PLAT-B1-03_s4_hibernate_cycle.log,PLAT-B1,PLAT-B1-03,s4_hibernate_cycle,B1.0.42,6.9.3,PASS,,
+RUN-0143,RUN-0143_PLAT-B1-01_s3_resume_cycle.log,PLAT-B1,PLAT-B1-01,s3_resume_cycle,B1.0.42,6.8.12,FAIL,S3_RESUME_TIMEOUT,Power Management
+RUN-0144,RUN-0144_PLAT-B1-01_usb_enumeration.log,PLAT-B1,PLAT-B1-01,usb_enumeration,B1.0.41,6.9.3,FAIL,USB_ENUM_FAIL,USB
+RUN-0145,RUN-0145_PLAT-A0-03_s4_hibernate_cycle.log,PLAT-A0,PLAT-A0-03,s4_hibernate_cycle,A0.1.17,6.9.3,PASS,,
+RUN-0146,RUN-0146_PLAT-A0-05_s3_resume_cycle.log,PLAT-A0,PLAT-A0-05,s3_resume_cycle,A0.1.17,6.8.12,PASS,,
+RUN-0147,RUN-0147_PLAT-A0-05_boot_stress.log,PLAT-A0,PLAT-A0-05,boot_stress,A0.1.17,6.8.12,PASS,,
+RUN-0148,RUN-0148_PLAT-B1-01_thermal_soak.log,PLAT-B1,PLAT-B1-01,thermal_soak,B1.0.41,6.9.3,PASS,,
+RUN-0149,RUN-0149_PLAT-B1-04_s4_hibernate_cycle.log,PLAT-B1,PLAT-B1-04,s4_hibernate_cycle,B1.0.41,6.9.3,FAIL,S4_IMAGE_RESTORE,Power Management
+RUN-0150,RUN-0150_PLAT-A0-05_memory_stress.log,PLAT-A0,PLAT-A0-05,memory_stress,A0.1.17,6.9.3,FAIL,MEM_ECC_CE,Memory
+RUN-0151,RUN-0151_PLAT-B1-06_thermal_soak.log,PLAT-B1,PLAT-B1-06,thermal_soak,B1.0.41,6.9.3,PASS,,
+RUN-0152,RUN-0152_PLAT-A0-03_thermal_soak.log,PLAT-A0,PLAT-A0-03,thermal_soak,A0.1.17,6.8.12,PASS,,
+RUN-0153,RUN-0153_PLAT-B1-02_thermal_soak.log,PLAT-B1,PLAT-B1-02,thermal_soak,B1.0.41,6.8.12,PASS,,
+RUN-0154,RUN-0154_PLAT-B1-05_s4_hibernate_cycle.log,PLAT-B1,PLAT-B1-05,s4_hibernate_cycle,B1.0.41,6.8.12,PASS,,
+RUN-0155,RUN-0155_PLAT-B1-06_thermal_soak.log,PLAT-B1,PLAT-B1-06,thermal_soak,B1.0.42,6.8.12,FAIL,HARNESS_SSH_LOST,Test Infrastructure
+RUN-0156,RUN-0156_PLAT-A0-01_pcie_link_training.log,PLAT-A0,PLAT-A0-01,pcie_link_training,A0.1.17,6.9.3,FAIL,PCIE_AER_FLOOD,PCIe
+RUN-0157,RUN-0157_PLAT-A0-02_s3_resume_cycle.log,PLAT-A0,PLAT-A0-02,s3_resume_cycle,A0.1.17,6.8.12,PASS,,
+RUN-0158,RUN-0158_PLAT-B1-06_pcie_link_training.log,PLAT-B1,PLAT-B1-06,pcie_link_training,B1.0.41,6.8.12,PASS,,
+RUN-0159,RUN-0159_PLAT-A0-04_s3_resume_cycle.log,PLAT-A0,PLAT-A0-04,s3_resume_cycle,A0.1.17,6.8.12,FAIL,HARNESS_SSH_LOST,Test Infrastructure
+RUN-0160,RUN-0160_PLAT-A0-01_s4_hibernate_cycle.log,PLAT-A0,PLAT-A0-01,s4_hibernate_cycle,A0.1.18,6.9.3,PASS,,
+RUN-0161,RUN-0161_PLAT-A0-05_memory_stress.log,PLAT-A0,PLAT-A0-05,memory_stress,A0.1.17,6.9.3,FAIL,MEM_ECC_CE,Memory
+RUN-0162,RUN-0162_PLAT-B1-05_s4_hibernate_cycle.log,PLAT-B1,PLAT-B1-05,s4_hibernate_cycle,B1.0.42,6.9.3,PASS,,
+RUN-0163,RUN-0163_PLAT-A0-03_boot_stress.log,PLAT-A0,PLAT-A0-03,boot_stress,A0.1.17,6.9.3,PASS,,
+RUN-0164,RUN-0164_PLAT-B1-05_usb_enumeration.log,PLAT-B1,PLAT-B1-05,usb_enumeration,B1.0.41,6.8.12,PASS,,
+RUN-0165,RUN-0165_PLAT-A0-04_pcie_link_training.log,PLAT-A0,PLAT-A0-04,pcie_link_training,A0.1.17,6.9.3,PASS,,
+RUN-0166,RUN-0166_PLAT-B1-06_s4_hibernate_cycle.log,PLAT-B1,PLAT-B1-06,s4_hibernate_cycle,B1.0.42,6.8.12,PASS,,
+RUN-0167,RUN-0167_PLAT-A0-04_s4_hibernate_cycle.log,PLAT-A0,PLAT-A0-04,s4_hibernate_cycle,A0.1.17,6.8.12,FAIL,EC_FW_ASSERT,Firmware
+RUN-0168,RUN-0168_PLAT-A0-05_s3_resume_cycle.log,PLAT-A0,PLAT-A0-05,s3_resume_cycle,A0.1.17,6.9.3,FAIL,S3_RESUME_TIMEOUT,Power Management
+RUN-0169,RUN-0169_PLAT-A0-06_memory_stress.log,PLAT-A0,PLAT-A0-06,memory_stress,A0.1.18,6.8.12,FAIL,MEM_TRAINING_FAIL,Memory
+RUN-0170,RUN-0170_PLAT-A0-02_boot_stress.log,PLAT-A0,PLAT-A0-02,boot_stress,A0.1.18,6.8.12,PASS,,
+RUN-0171,RUN-0171_PLAT-B1-05_usb_enumeration.log,PLAT-B1,PLAT-B1-05,usb_enumeration,B1.0.42,6.8.12,PASS,,
+RUN-0172,RUN-0172_PLAT-A0-02_pcie_link_training.log,PLAT-A0,PLAT-A0-02,pcie_link_training,A0.1.17,6.8.12,PASS,,
+RUN-0173,RUN-0173_PLAT-A0-01_usb_enumeration.log,PLAT-A0,PLAT-A0-01,usb_enumeration,A0.1.18,6.9.3,PASS,,
+RUN-0174,RUN-0174_PLAT-B1-06_pcie_link_training.log,PLAT-B1,PLAT-B1-06,pcie_link_training,B1.0.42,6.9.3,FAIL,PCIE_AER_FLOOD,PCIe
+RUN-0175,RUN-0175_PLAT-B1-01_pcie_link_training.log,PLAT-B1,PLAT-B1-01,pcie_link_training,B1.0.42,6.8.12,FAIL,PCIE_LINK_DOWNTRAIN,PCIe
+RUN-0176,RUN-0176_PLAT-B1-06_s4_hibernate_cycle.log,PLAT-B1,PLAT-B1-06,s4_hibernate_cycle,B1.0.42,6.9.3,PASS,,
+RUN-0177,RUN-0177_PLAT-A0-03_memory_stress.log,PLAT-A0,PLAT-A0-03,memory_stress,A0.1.18,6.9.3,FAIL,MEM_TRAINING_FAIL,Memory
+RUN-0178,RUN-0178_PLAT-A0-01_s3_resume_cycle.log,PLAT-A0,PLAT-A0-01,s3_resume_cycle,A0.1.17,6.9.3,PASS,,
+RUN-0179,RUN-0179_PLAT-A0-05_pcie_link_training.log,PLAT-A0,PLAT-A0-05,pcie_link_training,A0.1.17,6.9.3,PASS,,
+RUN-0180,RUN-0180_PLAT-B1-04_usb_enumeration.log,PLAT-B1,PLAT-B1-04,usb_enumeration,B1.0.42,6.9.3,PASS,,
+RUN-0181,RUN-0181_PLAT-A0-04_usb_enumeration.log,PLAT-A0,PLAT-A0-04,usb_enumeration,A0.1.17,6.8.12,FAIL,USB_ENUM_FAIL,USB
+RUN-0182,RUN-0182_PLAT-B1-06_s4_hibernate_cycle.log,PLAT-B1,PLAT-B1-06,s4_hibernate_cycle,B1.0.41,6.9.3,PASS,,
+RUN-0183,RUN-0183_PLAT-B1-01_s3_resume_cycle.log,PLAT-B1,PLAT-B1-01,s3_resume_cycle,B1.0.41,6.9.3,FAIL,USB_ENUM_FAIL,USB
+RUN-0184,RUN-0184_PLAT-B1-06_thermal_soak.log,PLAT-B1,PLAT-B1-06,thermal_soak,B1.0.41,6.8.12,PASS,,
+RUN-0185,RUN-0185_PLAT-B1-05_pcie_link_training.log,PLAT-B1,PLAT-B1-05,pcie_link_training,B1.0.42,6.8.12,PASS,,
+RUN-0186,RUN-0186_PLAT-B1-04_pcie_link_training.log,PLAT-B1,PLAT-B1-04,pcie_link_training,B1.0.41,6.9.3,PASS,,
+RUN-0187,RUN-0187_PLAT-B1-05_thermal_soak.log,PLAT-B1,PLAT-B1-05,thermal_soak,B1.0.41,6.9.3,PASS,,
+RUN-0188,RUN-0188_PLAT-A0-02_thermal_soak.log,PLAT-A0,PLAT-A0-02,thermal_soak,A0.1.17,6.8.12,PASS,,
+RUN-0189,RUN-0189_PLAT-B1-02_usb_enumeration.log,PLAT-B1,PLAT-B1-02,usb_enumeration,B1.0.42,6.9.3,PASS,,
+RUN-0190,RUN-0190_PLAT-B1-01_s3_resume_cycle.log,PLAT-B1,PLAT-B1-01,s3_resume_cycle,B1.0.41,6.9.3,PASS,,
+RUN-0191,RUN-0191_PLAT-A0-05_pcie_link_training.log,PLAT-A0,PLAT-A0-05,pcie_link_training,A0.1.17,6.9.3,PASS,,
+RUN-0192,RUN-0192_PLAT-A0-04_s4_hibernate_cycle.log,PLAT-A0,PLAT-A0-04,s4_hibernate_cycle,A0.1.17,6.8.12,PASS,,
+RUN-0193,RUN-0193_PLAT-B1-02_usb_enumeration.log,PLAT-B1,PLAT-B1-02,usb_enumeration,B1.0.41,6.9.3,PASS,,
+RUN-0194,RUN-0194_PLAT-A0-06_s3_resume_cycle.log,PLAT-A0,PLAT-A0-06,s3_resume_cycle,A0.1.18,6.8.12,PASS,,
+RUN-0195,RUN-0195_PLAT-B1-04_s3_resume_cycle.log,PLAT-B1,PLAT-B1-04,s3_resume_cycle,B1.0.41,6.8.12,PASS,,
+RUN-0196,RUN-0196_PLAT-A0-06_memory_stress.log,PLAT-A0,PLAT-A0-06,memory_stress,A0.1.18,6.8.12,FAIL,MEM_TRAINING_FAIL,Memory
+RUN-0197,RUN-0197_PLAT-A0-06_s4_hibernate_cycle.log,PLAT-A0,PLAT-A0-06,s4_hibernate_cycle,A0.1.17,6.9.3,FAIL,S4_IMAGE_RESTORE,Power Management
+RUN-0198,RUN-0198_PLAT-A0-04_thermal_soak.log,PLAT-A0,PLAT-A0-04,thermal_soak,A0.1.18,6.9.3,FAIL,THERMAL_THROTTLE,Thermal
+RUN-0199,RUN-0199_PLAT-B1-06_usb_enumeration.log,PLAT-B1,PLAT-B1-06,usb_enumeration,B1.0.42,6.8.12,FAIL,USB_ENUM_FAIL,USB
+RUN-0200,RUN-0200_PLAT-B1-01_memory_stress.log,PLAT-B1,PLAT-B1-01,memory_stress,B1.0.41,6.9.3,PASS,,

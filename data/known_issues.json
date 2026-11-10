@@ -1,0 +1,42 @@
+[
+  {
+    "id": "KI-1001",
+    "title": "PCIe Gen5 x16 slot downtrains to x8 on PLAT-B1 with BIOS B1.0.42",
+    "status": "Open",
+    "owner_team": "BIOS / PCIe",
+    "patterns": ["link width mismatch", "link speed downgraded"],
+    "notes": "Suspected equalization preset change in B1.0.42. Not seen on B1.0.41."
+  },
+  {
+    "id": "KI-1002",
+    "title": "USB device descriptor read error -71 on external test hub",
+    "status": "Open",
+    "owner_team": "USB / Platform Validation",
+    "patterns": ["device descriptor read/64, error -71", "unable to enumerate usb device"],
+    "notes": "Often caused by the shared USB test hub. Re-run on a direct port before filing."
+  },
+  {
+    "id": "KI-1003",
+    "title": "Lab harness loses SSH to unit during long runs",
+    "status": "Known infra issue",
+    "owner_team": "Lab Infrastructure",
+    "patterns": ["ssh connection to .* lost", "unreachable after 3 retries"],
+    "notes": "Lab network issue, not a product bug. Re-run the test."
+  },
+  {
+    "id": "KI-1004",
+    "title": "High correctable ECC rate on unit PLAT-A0-05",
+    "status": "Hardware replacement pending",
+    "owner_team": "Memory Validation",
+    "patterns": ["correctable ecc error rate"],
+    "notes": "Likely a marginal DIMM on this unit. DIMM swap requested."
+  },
+  {
+    "id": "KI-1005",
+    "title": "S3 resume timeout, device does not respond to D0 transition",
+    "status": "Root cause in progress",
+    "owner_team": "Power Management",
+    "patterns": ["s3 resume timeout", "wake event not acknowledged"],
+    "notes": "Under debug with the device firmware team."
+  }
+]
